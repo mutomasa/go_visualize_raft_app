@@ -1,6 +1,8 @@
 # go_visualize_raft
 
 Go で動作するシンプルな Raft 可視化デモです。擬似的な Raft のやり取り（リーダ選出・ハートビート）を生成し、Mermaid のシーケンス図としてブラウザに表示します。
+<img width="1225" height="773" alt="image" src="https://github.com/user-attachments/assets/bd8e42f1-e293-411f-b13d-13a44ea7fe56" />
+
 
 ## 概要
 - 小規模な擬似クラスタ（例: 5 ノード）で選挙とハートビートのメッセージ列を生成
